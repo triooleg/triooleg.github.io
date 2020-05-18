@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-container second">
+            <div class="item left-panel">
+                <div class="name" zoom="5">Испания</div>
+                <div class="name" zoom="5">Германия</div>
+                <div class="name" zoom="5">Швеция</div>
+                <div class="name" zoom="5">Австралия</div>
+                <div class="name" zoom="8">Токио</div>
+                <div class="name" zoom="8">Москва</div>
+                <div class="name" zoom="15">г.Воронеж, ул. свободы 10</div>
+            </div>
+            <div class="item main-panel">
+                <div id="map"></div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAywI1qFFPiBqo6Iti5aRMadiQsadfdGA&libraries=places&callback=initMap"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
